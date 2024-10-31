@@ -1,0 +1,565 @@
+Script started on 2024-10-31 02:46:53+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="181" LINES="23"]
+[0;32m@JRKeranen [0m➜ [1;34m/workspaces/project1final-JRKeranen/WarehouseFinal [0;36m([1;31mmain[0;36m) [0m$ exitjava UserInterface [7Pc *.java
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+[0;32m@JRKeranen [0m➜ [1;34m/workspaces/project1final-JRKeranen/WarehouseFinal [0;36m([1;31mmain[0;36m) [0m$ javac *.java[8Pexitjava UserInterface 
+Enter a number between 0 and 10 as explained below:
+0 - Exit
+1 - add a client
+2 - add a product
+3 - add product to clients wishlist
+4 - Place a client order
+5 - Revieve Shipment
+6 - Make Payment
+7 - Display all Clients
+8 - Display all products
+9 - Display client wishlist
+10 - Display client invoices
+11 - Display product WaitList
+
+Enter command: 
+1
+Enter Client name
+C1
+ID: C-1, Name: C1, Account Balance: $0.0
+
+Enter command: 
+1
+Enter Client name
+C2
+ID: C-2, Name: C2, Account Balance: $0.0
+
+Enter command: 
+1
+Enter Client name
+C3
+ID: C-3, Name: C3, Account Balance: $0.0
+
+Enter command: 
+1
+Enter Client name
+C4
+ID: C-4, Name: C4, Account Balance: $0.0
+
+Enter command: 
+1
+Enter Client name
+C5
+ID: C-5, Name: C5, Account Balance: $0.0
+
+Enter command: 
+7
+ID: C-1, Name: C1, Account Balance: $0.0
+ID: C-2, Name: C2, Account Balance: $0.0
+ID: C-3, Name: C3, Account Balance: $0.0
+ID: C-4, Name: C4, Account Balance: $0.0
+ID: C-5, Name: C5, Account Balance: $0.0
+
+Enter command: 
+2
+Enter  name
+P1
+Enter manufacturer
+none
+Enter quantity
+10
+Enter price
+1
+true
+ID: P-1, Name: P1, Quantity: 10, Manufacture: none, Price: 1.0
+Add more Products? (Y|y)[es] or anything else for no
+y
+Enter  name
+P2
+Enter manufacturer
+none
+Enter quantity
+20
+Enter price
+2
+true
+ID: P-2, Name: P2, Quantity: 20, Manufacture: none, Price: 2.0
+Add more Products? (Y|y)[es] or anything else for no
+y
+Enter  name
+P3
+Enter manufacturer
+none
+Enter quantity
+30
+Enter price
+3
+true
+ID: P-3, Name: P3, Quantity: 30, Manufacture: none, Price: 3.0
+Add more Products? (Y|y)[es] or anything else for no
+y
+Enter  name
+P4
+Enter manufacturer
+none
+Enter quantity
+40
+Enter price
+4
+true
+ID: P-4, Name: P4, Quantity: 40, Manufacture: none, Price: 4.0
+Add more Products? (Y|y)[es] or anything else for no
+y
+Enter  name
+P5
+Enter manufacturer
+none
+Enter quantity
+50
+Enter price
+5
+true
+ID: P-5, Name: P5, Quantity: 50, Manufacture: none, Price: 5.0
+Add more Products? (Y|y)[es] or anything else for no
+n
+
+Enter command: 
+8
+ID: P-1, Name: P1, Quantity: 10, Manufacture: none, Price: 1.0
+ID: P-2, Name: P2, Quantity: 20, Manufacture: none, Price: 2.0
+ID: P-3, Name: P3, Quantity: 30, Manufacture: none, Price: 3.0
+ID: P-4, Name: P4, Quantity: 40, Manufacture: none, Price: 4.0
+ID: P-5, Name: P5, Quantity: 50, Manufacture: none, Price: 5.0
+
+Enter command: 
+3
+Enter client id
+C-1
+Enter product id you want to add
+P-1
+Enter quantity
+5
+Wished For - Product Name: P1, Quantity: 5, Price: $1.0
+Add more Products to wishlist? (Y|y)[es] or anything else for no
+y
+Enter product id you want to add
+P-3
+Enter quantity
+5
+Wished For - Product Name: P3, Quantity: 5, Price: $3.0
+Add more Products to wishlist? (Y|y)[es] or anything else for no
+y
+Enter product id you want to add
+P-5
+Enter quantity
+5
+Wished For - Product Name: P5, Quantity: 5, Price: $5.0
+Add more Products to wishlist? (Y|y)[es] or anything else for no
+n
+
+Enter command: 
+9
+Enter Client ID: 
+C-1
+Wish List
+--------------------------------
+Wished For - Product Name: P1, Quantity: 5, Price: $1.0
+Wished For - Product Name: P3, Quantity: 5, Price: $3.0
+Wished For - Product Name: P5, Quantity: 5, Price: $5.0
+--------------------------------
+
+Enter command: 
+3
+Enter client id
+C-2
+Enter product id you want to add
+P-1
+Enter quantity
+7
+Wished For - Product Name: P1, Quantity: 7, Price: $1.0
+Add more Products to wishlist? (Y|y)[es] or anything else for no
+y
+Enter product id you want to add
+P-2
+Enter quantity
+7
+Wished For - Product Name: P2, Quantity: 7, Price: $2.0
+Add more Products to wishlist? (Y|y)[es] or anything else for no
+y
+Enter product id you want to add
+P-4
+Enter quantity
+7
+Wished For - Product Name: P4, Quantity: 7, Price: $4.0
+Add more Products to wishlist? (Y|y)[es] or anything else for no
+y
+Enter product id you want to add
+P-4
+Enter quantity
+1
+Wished For - Product Name: P4, Quantity: 1, Price: $4.0
+Add more Products to wishlist? (Y|y)[es] or anything else for no
+n
+
+Enter command: 
+9
+Enter Client ID: 
+C-2
+Wish List
+--------------------------------
+Wished For - Product Name: P1, Quantity: 7, Price: $1.0
+Wished For - Product Name: P2, Quantity: 7, Price: $2.0
+Wished For - Product Name: P4, Quantity: 7, Price: $4.0
+Wished For - Product Name: P4, Quantity: 1, Price: $4.0
+--------------------------------
+
+Enter command: 
+3
+Enter client id
+C-3
+Enter product id you want to add
+P-1
+Enter quantity
+6
+Wished For - Product Name: P1, Quantity: 6, Price: $1.0
+Add more Products to wishlist? (Y|y)[es] or anything else for no
+y
+Enter product id you want to add
+P-2
+Enter quantity
+6
+Wished For - Product Name: P2, Quantity: 6, Price: $2.0
+Add more Products to wishlist? (Y|y)[es] or anything else for no
+y
+Enter product id you want to add
+P-5
+Enter quantity
+6
+Wished For - Product Name: P5, Quantity: 6, Price: $5.0
+Add more Products to wishlist? (Y|y)[es] or anything else for no
+n
+
+Enter command: 
+9
+Enter Client ID: 
+P C-3
+Wish List
+--------------------------------
+Wished For - Product Name: P1, Quantity: 6, Price: $1.0
+Wished For - Product Name: P2, Quantity: 6, Price: $2.0
+Wished For - Product Name: P5, Quantity: 6, Price: $5.0
+--------------------------------
+
+Enter command: 
+4
+Enter Client ID: 
+C-2
+Starting Wishlist
+Wish List
+--------------------------------
+Wished For - Product Name: P1, Quantity: 7, Price: $1.0
+Wished For - Product Name: P2, Quantity: 7, Price: $2.0
+Wished For - Product Name: P4, Quantity: 7, Price: $4.0
+Wished For - Product Name: P4, Quantity: 1, Price: $4.0
+--------------------------------
+-------------------------------------
+Wished For - Product Name: P1, Quantity: 7, Price: $1.0
+-------------------------------------
+1 - Remove Item from the wishlist
+2 - Change Item Quantity
+3 - Next Item
+Enter Option: 
+3
+Going to next Item...
+-------------------------------------
+Wished For - Product Name: P2, Quantity: 7, Price: $2.0
+-------------------------------------
+1 - Remove Item from the wishlist
+2 - Change Item Quantity
+3 - Next Item
+Enter Option: 
+3
+Going to next Item...
+-------------------------------------
+Wished For - Product Name: P4, Quantity: 7, Price: $4.0
+-------------------------------------
+1 - Remove Item from the wishlist
+2 - Change Item Quantity
+3 - Next Item
+Enter Option: 
+3
+Going to next Item...
+-------------------------------------
+Wished For - Product Name: P4, Quantity: 1, Price: $4.0
+-------------------------------------
+1 - Remove Item from the wishlist
+2 - Change Item Quantity
+3 - Next Item
+Enter Option: 
+1
+removing wish Item... 
+Wish List
+--------------------------------
+Wished For - Product Name: P1, Quantity: 7, Price: $1.0
+Wished For - Product Name: P2, Quantity: 7, Price: $2.0
+Wished For - Product Name: P4, Quantity: 7, Price: $4.0
+--------------------------------
+
+Enter command: 
+7
+ID: C-1, Name: C1, Account Balance: $0.0
+ID: C-2, Name: C2, Account Balance: $-49.0
+ID: C-3, Name: C3, Account Balance: $0.0
+ID: C-4, Name: C4, Account Balance: $0.0
+ID: C-5, Name: C5, Account Balance: $0.0
+
+Enter command: 
+4
+Enter Client ID: 
+C-3
+Starting Wishlist
+Wish List
+--------------------------------
+Wished For - Product Name: P1, Quantity: 6, Price: $1.0
+Wished For - Product Name: P2, Quantity: 6, Price: $2.0
+Wished For - Product Name: P5, Quantity: 6, Price: $5.0
+--------------------------------
+-------------------------------------
+Wished For - Product Name: P1, Quantity: 6, Price: $1.0
+-------------------------------------
+1 - Remove Item from the wishlist
+2 - Change Item Quantity
+3 - Next Item
+Enter Option: 
+3
+Going to next Item...
+-------------------------------------
+Wished For - Product Name: P2, Quantity: 6, Price: $2.0
+-------------------------------------
+1 - Remove Item from the wishlist
+2 - Change Item Quantity
+3 - Next Item
+Enter Option: 
+3
+Going to next Item...
+-------------------------------------
+Wished For - Product Name: P5, Quantity: 6, Price: $5.0
+-------------------------------------
+1 - Remove Item from the wishlist
+2 - Change Item Quantity
+3 - Next Item
+Enter Option: 
+3
+Going to next Item...
+Wish List
+--------------------------------
+Wished For - Product Name: P1, Quantity: 6, Price: $1.0
+Wished For - Product Name: P2, Quantity: 6, Price: $2.0
+Wished For - Product Name: P5, Quantity: 6, Price: $5.0
+--------------------------------
+
+Enter command: 
+9
+Enter Client ID: 
+C-3
+Wish List
+--------------------------------
+Wished For - Product Name: P1, Quantity: 6, Price: $1.0
+Wished For - Product Name: P2, Quantity: 6, Price: $2.0
+Wished For - Product Name: P5, Quantity: 6, Price: $5.0
+--------------------------------
+
+Enter command: 
+7
+ID: C-1, Name: C1, Account Balance: $0.0
+ID: C-2, Name: C2, Account Balance: $-49.0
+ID: C-3, Name: C3, Account Balance: $-48.0
+ID: C-4, Name: C4, Account Balance: $0.0
+ID: C-5, Name: C5, Account Balance: $0.0
+
+Enter command: 
+9
+Enter Client ID: 
+C-2
+Wish List
+--------------------------------
+Wished For - Product Name: P1, Quantity: 7, Price: $1.0
+Wished For - Product Name: P2, Quantity: 7, Price: $2.0
+Wished For - Product Name: P4, Quantity: 7, Price: $4.0
+--------------------------------
+
+Enter command: 
+9
+Enter Client ID: 
+C-3
+Wish List
+--------------------------------
+Wished For - Product Name: P1, Quantity: 6, Price: $1.0
+Wished For - Product Name: P2, Quantity: 6, Price: $2.0
+Wished For - Product Name: P5, Quantity: 6, Price: $5.0
+--------------------------------
+
+Enter command: 
+11
+Enter Client ID: 
+P-1
+----------------------
+C-3 wished for P1 x 3
+----------------------
+
+Enter command: 
+11
+Enter Client ID: 
+P-2
+----------------------
+Client has no waitlist
+----------------------
+
+Enter command: 
+12
+Enter a number between 0 and 10 as explained below:
+0 - Exit
+1 - add a client
+2 - add a product
+3 - add product to clients wishlist
+4 - Place a client order
+5 - Revieve Shipment
+6 - Make Payment
+7 - Display all Clients
+8 - Display all products
+9 - Display client wishlist
+10 - Display client invoices
+11 - Display product WaitList
+
+Enter command: 
+4
+Enter Client ID: 
+C-1
+Starting Wishlist
+Wish List
+--------------------------------
+Wished For - Product Name: P1, Quantity: 5, Price: $1.0
+Wished For - Product Name: P3, Quantity: 5, Price: $3.0
+Wished For - Product Name: P5, Quantity: 5, Price: $5.0
+--------------------------------
+-------------------------------------
+Wished For - Product Name: P1, Quantity: 5, Price: $1.0
+-------------------------------------
+1 - Remove Item from the wishlist
+2 - Change Item Quantity
+3 - Next Item
+Enter Option: 
+3
+Going to next Item...
+-------------------------------------
+Wished For - Product Name: P3, Quantity: 5, Price: $3.0
+-------------------------------------
+1 - Remove Item from the wishlist
+2 - Change Item Quantity
+3 - Next Item
+Enter Option: 
+3
+Going to next Item...
+-------------------------------------
+Wished For - Product Name: P5, Quantity: 5, Price: $5.0
+-------------------------------------
+1 - Remove Item from the wishlist
+2 - Change Item Quantity
+3 - Next Item
+Enter Option: 
+3
+Going to next Item...
+Wish List
+--------------------------------
+Wished For - Product Name: P1, Quantity: 5, Price: $1.0
+Wished For - Product Name: P3, Quantity: 5, Price: $3.0
+Wished For - Product Name: P5, Quantity: 5, Price: $5.0
+--------------------------------
+
+Enter command: 
+7
+ID: C-1, Name: C1, Account Balance: $-45.0
+ID: C-2, Name: C2, Account Balance: $-49.0
+ID: C-3, Name: C3, Account Balance: $-48.0
+ID: C-4, Name: C4, Account Balance: $0.0
+ID: C-5, Name: C5, Account Balance: $0.0
+
+Enter command: 
+9
+Enter Client ID: 
+C-1
+Wish List
+--------------------------------
+Wished For - Product Name: P1, Quantity: 5, Price: $1.0
+Wished For - Product Name: P3, Quantity: 5, Price: $3.0
+Wished For - Product Name: P5, Quantity: 5, Price: $5.0
+--------------------------------
+
+Enter command: 
+6
+Enter Client ID: 
+C-1
+Enter Payment Amount: 
+100
+Beginning Balance: $-45.0
+Final Balance = $55.0
+Payment Completed
+
+Enter command: 
+C-2   6
+Enter Client ID: 
+C-2
+Enter Payment Amount: 
+100
+Beginning Balance: $-49.0
+Final Balance = $51.0
+Payment Completed
+
+Enter command: 
+7
+ID: C-1, Name: C1, Account Balance: $55.0
+ID: C-2, Name: C2, Account Balance: $51.0
+ID: C-3, Name: C3, Account Balance: $-48.0
+ID: C-4, Name: C4, Account Balance: $0.0
+ID: C-5, Name: C5, Account Balance: $0.0
+
+Enter command: 
+5
+Enter product id you are recieving
+P-1
+Enter Product Quantity: 
+100
+Recive more Products? (Y|y)[es] or anything else for no
+n
+
+Enter command: 
+8
+ID: P-1, Name: P1, Quantity: 97, Manufacture: none, Price: 1.0
+ID: P-2, Name: P2, Quantity: 7, Manufacture: none, Price: 2.0
+ID: P-3, Name: P3, Quantity: 25, Manufacture: none, Price: 3.0
+ID: P-4, Name: P4, Quantity: 33, Manufacture: none, Price: 4.0
+ID: P-5, Name: P5, Quantity: 39, Manufacture: none, Price: 5.0
+
+Enter command: 
+7
+ID: C-1, Name: C1, Account Balance: $55.0
+ID: C-2, Name: C2, Account Balance: $51.0
+ID: C-3, Name: C3, Account Balance: $-48.0
+ID: C-4, Name: C4, Account Balance: $0.0
+ID: C-5, Name: C5, Account Balance: $0.0
+
+Enter command: 
+10
+Enter Client ID: 
+C-1
+Purchased5, P3, with a total of $15.0
+Purchased5, P5, with a total of $25.0
+
+Enter command: 
+10
+Enter Client ID: 
+C-2
+Purchased7, P1, with a total of $7.0
+Purchased7, P2, with a total of $14.0
+Purchased7, P4, with a total of $28.0
+
+Enter command: 
+^C[0;32m@JRKeranen [1;31m➜ [1;34m/workspaces/project1final-JRKeranen/WarehouseFinal [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-10-31 02:58:34+00:00 [COMMAND_EXIT_CODE="130"]
